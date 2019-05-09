@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import repositories from './repositories'
+import sessions from './sessions'
 
 export default combineReducers({
-    repositories,
+    sessions,
 });
