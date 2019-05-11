@@ -4,10 +4,12 @@ import { SessionsState } from './ducks/sessions/types';
 
 import rootReducer from './ducks/rootReducer';
 import rootSaga from './ducks/rootSaga';
+import { TodosState } from './ducks/todos/types';
 
 
 export interface ApplicationState {
     sessions: SessionsState
+    todos: TodosState
 }
 
 const sagaMiddleware = createSagaMiddleware();
